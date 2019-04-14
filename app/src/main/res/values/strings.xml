@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Imageu</string>
+    <string name="banten">Banten</string>
+    <string name="jakarta">Jakarta</string>
+    <string name="jabar">Jawa Barat</string>
+    <string name="jateng">Jawa Tengah</string>
+    <string name="jawa_timur">Jawa Timur</string>
+    <string name="yogyakarta">Yogyakarta</string>
+</resources>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+         <RelativeLayout
+             android:id="@+id/rel1"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="150dp">
+
+          <Button
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/banten_ed"
+              android:text="@string/banten"
+              android:textSize="25sp"
+              android:textStyle="bold"
+              android:textColor="@android:color/white"
+              android:fontFamily="@font/kiona"
+              tools:targetApi="jelly_bean"/>
+
+         </RelativeLayout>
+
+         <RelativeLayout
+             android:id="@+id/rel2"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="150dp">
+
+         <Button
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@drawable/jakarta_ed"
+             android:text="@string/jakarta"
+             android:textSize="25sp"
+             android:textStyle="bold"
+             android:fontFamily="@font/kiona"
+             android:textColor="@android:color/white"/>
+         </RelativeLayout>
+
+         <RelativeLayout
+             android:id="@+id/rel3"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="150dp">
+
+             <Button
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:background="@drawable/jabar_ed"
+                 android:text="@string/jabar"
+                 android:textSize="25sp"
+                 android:textStyle="bold"
+                 android:fontFamily="@font/kiona"
+                 android:textColor="@android:color/white"/>
+         </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rel4"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="150dp">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/jateng_ed"
+                    android:text="@string/jateng"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/kiona"
+                    android:textColor="@android:color/white"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rel5"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="150dp">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/jatim_ed"
+                    android:text="@string/jawa_timur"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/kiona"
+                    android:textColor="@android:color/white"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rel6"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="150dp">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/yogya_ed"
+                    android:text="@string/yogyakarta"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/kiona"
+                    android:textColor="@android:color/white"/>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
